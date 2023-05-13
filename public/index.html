@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="menuBar">
+        <div class="menuItem hidden showCreateElements" id="loginButton" onclick="showLogin()">Login</div>
+        <div class="menuItem showLoginElements" id="createAccountButton" onclick="showCreate()">Create Account</div>
+    </div>
+    <div class="title">Animal Crossing Item Finder</div>
+    <div id="loginForm" class="form showLoginElements">
+        <input id="username">Username</input>
+        <input id="password">Password</input>
+        <button onclick="onLogin()">login</button>
+    </div>
+    <div id="createAccount" class="form hidden showCreateElements">
+        <input id="createUsername">Username</input>
+        <input id="createPassword">Password</input>
+        <input id="createIslandCode">Island Code</input>
+        <button onclick="createAccount()">Create Account</button>
+</div>
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
