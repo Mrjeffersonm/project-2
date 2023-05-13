@@ -1,3 +1,45 @@
+# Project 2
+
+## Description
+
+This Webpage was made to help Animal Crossing Players find items.
+
+## Installation
+
+N/A
+
+## Usage
+
+Create an account by clicking on the create account button and fill in the boxes, then login and search for an item or add an item to your account by pressing the add item button.
+
+## License
+
+Please refer to the LICENSE in the Repo.
+
+## Link
+https://stark-sands-43742.herokuapp.com/index.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Create User Example
 http://localhost:3001/api/user
 
